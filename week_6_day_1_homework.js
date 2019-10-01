@@ -142,7 +142,7 @@ const declareMurderer = function() {
 changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
-// // The ultimate result of 'changeMurderer()' is that the murderer is 'Miss Scarlet', so this should be the verdict.
+// // The variable in plotTwist() is local and unrelated to the outside scope, so the result of 'changeMurderer()' is that the murderer is 'Mr. Green', so this should be the verdict.
 
 //  Episode 8
 
@@ -198,7 +198,7 @@ const declareMurderer = function() {
 
 const verdict = declareMurderer();
 console.log(verdict);
-// // The if statement is not a part of a properly constructed function, so the murderer remains unchanged as 'Professor Plum'
+// // The if statement is not related to the original variable, so the murderer remains unchanged as 'Professor Plum'
 
 // ### Extensions
 //
